@@ -1,6 +1,4 @@
 <?php
-
-<?php
 class Application {
     private static $instance;
 
@@ -19,4 +17,4 @@ class Application {
 
 $app1 = Application::getInstance();
 $app2 = Application::getInstance();
-$app3 = new Application();
+//$app3 = new Application();
